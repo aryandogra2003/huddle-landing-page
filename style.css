@@ -10,6 +10,10 @@ body{
     background-repeat: no-repeat;
     background-color:  hsl(257, 40%, 49%);
 }
+.box{
+    display: flex;
+    flex-direction: column;
+}
 .header{
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -60,15 +64,21 @@ body{
     cursor: pointer;
 }
 .icon{
-    position: absolute;
-    padding: 5px;
-    right: 230px;
-    bottom: 20px;
+    display: flex;
+    justify-content: right;
+    padding-right: 260px;
 }
+
 ion-icon{
     color: white;
 }
 ion-icon:hover{
     color: hsl(300, 69%, 71%);
     cursor: pointer;
+}
+.facebook{
+    padding-right: 15px;
+}
+.twitter{
+    padding-right: 15px;
 }
