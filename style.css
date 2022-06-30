@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color:  hsl(257, 40%, 49%);
+}
+.header{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 18px;
+    padding-top: 8px;
+    padding-left: 36px;
+    padding-bottom: 16px;
+}
+.container{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+}
+.content{
+    width: 605px;
+    height: 470px;
+    margin: 2px;
+    padding: 90px 90px 90px 34px;
+    text-align: left;
+}
+.img{
+    padding: 8px;
+    padding-left: 23px;
+}
+.content p{
+    word-spacing: 2px;
+    padding-bottom: 50px;
+    color: white;
+}
+.content h1 {
+    font-size: 42px;
+    color: white;
+    line-height: 45px;
+}
+.btn{
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    color: hsl(300, 90%, 27%);
+    border-radius: 15px;
+    box-shadow: 2px 3px 12px black;
+}
+.btn:hover{
+    color: white;
+    background-color:  hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    padding: 5px;
+    right: 230px;
+    bottom: 20px;
+}
+ion-icon{
+    color: white;
+}
+ion-icon:hover{
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
